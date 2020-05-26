@@ -1,0 +1,26 @@
+{
+  "name": "arthuratul/chuck-norris-jokes",
+  "description": "generates a random check norris jokes",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arthur Atul",
+      "email": "arthur.atul@ithnads.biz"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "arthuratul\\ChuckNorrisJokes\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "arthuratul\\ChuckNorrisJokes\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.1"
+  }
+}
