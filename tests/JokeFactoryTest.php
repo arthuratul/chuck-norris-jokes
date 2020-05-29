@@ -13,7 +13,7 @@ class JokeFactoryTest extends TestCase
     public function it_returns_a_random_jokes()
     {
         $jokes = new JokeFactory([
-            'it should return a random joke'
+            'it should return a random joke',
         ]);
 
         $joke = $jokes->getRandomJoke();
@@ -29,7 +29,7 @@ class JokeFactoryTest extends TestCase
         $chuckNorrisJokes = [
             'Chuck Norris doesn’t read books. He stares them down until he gets the information he wants.',
             'Time waits for no man. Unless that man is Chuck Norris.',
-            'If you spell Chuck Norris in Scrabble, you win. Forever.'
+            'If you spell Chuck Norris in Scrabble, you win. Forever.',
         ];
 
         $jokes = new JokeFactory();
@@ -38,6 +38,4 @@ class JokeFactoryTest extends TestCase
 
         $this->assertContains($joke, $chuckNorrisJokes);
     }
-
-
 }

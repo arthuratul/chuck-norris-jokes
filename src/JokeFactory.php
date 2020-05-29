@@ -15,7 +15,6 @@ class JokeFactory
         if ($jokes) {
             $this->chuckNorrisJokes = $jokes;
         }
-
     }
 
     public function getRandomJoke(): string
