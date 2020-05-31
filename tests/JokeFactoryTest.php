@@ -30,5 +30,4 @@ class JokeFactoryTest extends TestCase
 
         $this->assertSame('Chuck Norris plays pool with comets and astroids. He shoots them into black holes.', $joke);
     }
-
 }
